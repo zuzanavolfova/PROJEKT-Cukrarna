@@ -40,12 +40,24 @@ html {
 body {
     margin: 0;
     font-family: 'Lora', serif;
+    line-height: 1.5;
+}
+
+main {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1,
 h2,
 h3 {
     font-family: 'Playfair Display', serif;
+    line-height: 1.25;
+}
+
+h1 {
+    font-size: 52px;
 }
 
 .header {
@@ -99,4 +111,47 @@ li {
 
 .footer p {
     margin: 0;
+}
+
+.hero {
+    background-image: url(/images/cupcake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.heroText p {
+    font-size: 24px;
+    font-style: italic;
+    padding-top: 30px;
+}
+
+.heroText p,
+h1 {
+    color: white;
+    margin: 0;
+    padding-right: 40%;
+}
+
+.heroText {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    max-width: 1100px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.welcomeText {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    max-width: 1100px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.sloupec p {
+    padding-right: 30px;
 }
