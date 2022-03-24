@@ -1,17 +1,15 @@
-/* intuitivnější box-sizing pro všechny prvky na stránce */
-
-html {
-    box-sizing: border-box;
-}
-
-*,
- ::before,
- ::after {
-    box-sizing: inherit;
-}
-
-
-/*
+    /* intuitivnější box-sizing pro všechny prvky na stránce */
+    
+    html {
+        box-sizing: border-box;
+    }
+    
+    *,
+     ::before,
+     ::after {
+        box-sizing: inherit;
+    }
+    /*
 	Poznámky:
 	- maximální šířka obsahu uvnitř sekcí je 1100px
 	- "pruh" s obsahem obsah je vycentrovaný na stránce
@@ -36,150 +34,189 @@ html {
 	#f0f0f0		světle šedé pozadí prostřední sekce
 	#303339		tmavé pozadí patičky
 */
-
-body {
-    margin: 0;
-    font-family: 'Lora', serif;
-    line-height: 1.5;
-    color: #242424;
-}
-
-main {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-h1,
-h2,
-h3 {
-    font-family: 'Playfair Display', serif;
-    line-height: 1.25;
-    color: #3e606b;
-}
-
-h2 {
-    font-size: 36px;
-}
-
-h1 {
-    font-size: 52px;
-}
-
-.header {
-    display: flex;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-between;
-    max-width: 1100px;
-}
-
-.menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.menu a {
-    padding: 10px 15px;
-    text-decoration: none;
-    color: #242424;
-}
-
-.menu a:hover {
-    padding: 10px 15px;
-    border-radius: 20px;
-    background-color: #f195b2;
-}
-
-.logo {
-    width: 170px;
-    padding: 30px 0;
-}
-
-ul {
-    display: flex;
-    padding: 0;
-    margin: 0;
-}
-
-li {
-    list-style-type: none;
-}
-
-.footer {
-    padding: 30px;
-    text-align: center;
-    color: white;
-    background-color: #303339;
-}
-
-.footer p {
-    margin: 0;
-}
-
-.hero {
-    background-image: url(/images/cupcake.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.heroText p {
-    font-size: 24px;
-    font-style: italic;
-    padding-top: 30px;
-}
-
-.heroText p,
-h1 {
-    color: white;
-    margin: 0;
-    padding-right: 40%;
-}
-
-.heroText {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    max-width: 1100px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.welcomeText {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    max-width: 1100px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-}
-
-.sloupec {
-    width: 50%;
-}
-
-.sloupec img {
-    width: 100%;
-}
-
-.sloupec p {
-    padding-right: 30px;
-    padding-bottom: 30px;
-    margin: 0;
-}
-
-.button {
-    border-radius: 30px;
-    padding: 15px 40px;
-    color: white;
-    background-color: #f195b2;
-    text-decoration: none;
-}
-
-.button:hover {
-    background-color: #d2567d;
-}
+    
+    body {
+        margin: 0;
+        font-family: 'Lora', serif;
+        line-height: 1.5;
+        color: #242424;
+    }
+    
+    main {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    h1,
+    h2,
+    h3 {
+        font-family: 'Playfair Display', serif;
+        line-height: 1.25;
+        color: #3e606b;
+    }
+    
+    h1 {
+        font-size: 52px;
+    }
+    
+    h2 {
+        font-size: 36px;
+        margin-top: 0;
+    }
+    
+    h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .header {
+        display: flex;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+        max-width: 1100px;
+    }
+    
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .menu a {
+        padding: 10px 15px;
+        text-decoration: none;
+        color: #242424;
+    }
+    
+    .menu a:hover {
+        padding: 10px 15px;
+        border-radius: 20px;
+        background-color: #f195b2;
+    }
+    
+    .logo {
+        width: 170px;
+        padding: 30px 0;
+    }
+    
+    ul {
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+    
+    li {
+        list-style-type: none;
+    }
+    
+    .footer {
+        padding: 30px;
+        text-align: center;
+        color: white;
+        background-color: #303339;
+    }
+    
+    .footer p {
+        margin: 0;
+    }
+    
+    .hero {
+        background-image: url(/images/cupcake.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .heroText p {
+        font-size: 24px;
+        font-style: italic;
+        padding-top: 30px;
+    }
+    
+    .heroText p,
+    h1 {
+        color: white;
+        margin: 0;
+        padding-right: 40%;
+    }
+    
+    .heroText,
+    .welcomeText,
+    .offerText,
+    .articleText {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        max-width: 1100px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .welcomeText,
+    .articleText,
+    .products {
+        display: flex;
+    }
+    
+    .sloupec {
+        width: 50%;
+    }
+    
+    .sloupec img {
+        width: 100%;
+        border-radius: 5px;
+    }
+    
+    .sloupec p {
+        padding-right: 30px;
+        padding-bottom: 30px;
+        margin: 0;
+    }
+    
+    .button {
+        border-radius: 30px;
+        padding: 15px 40px;
+        color: white;
+        background-color: #f195b2;
+        text-decoration: none;
+    }
+    
+    .button:hover {
+        background-color: #d2567d;
+    }
+    
+    .offer {
+        background-color: #f0f0f0;
+    }
+    
+    .product {
+        border-radius: 5px;
+        background-color: white;
+        margin-right: 30px;
+        margin-block-end: 0;
+    }
+    
+    .products {
+        max-width: 1100px;
+        flex-grow: 0;
+    }
+    
+    .productText {
+        padding: 20px;
+    }
+    
+    .product p {
+        text-align: center;
+    }
+    
+    .articleText img {
+        border-radius: 5px;
+        margin-right: 30px;
+    }
+    
+    .articleText {
+        align-items: center;
+    }
