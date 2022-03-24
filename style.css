@@ -201,7 +201,7 @@
     
     .products {
         max-width: 1100px;
-        flex-grow: 0;
+        justify-content: space-between;
     }
     
     .productText {
