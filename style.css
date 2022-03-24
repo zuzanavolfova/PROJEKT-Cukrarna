@@ -58,6 +58,10 @@ h3 {
     color: #3e606b;
 }
 
+h2 {
+    font-size: 36px;
+}
+
 h1 {
     font-size: 52px;
 }
@@ -154,6 +158,28 @@ h1 {
     display: flex;
 }
 
+.sloupec {
+    width: 50%;
+}
+
+.sloupec img {
+    width: 100%;
+}
+
 .sloupec p {
     padding-right: 30px;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.button {
+    border-radius: 30px;
+    padding: 15px 40px;
+    color: white;
+    background-color: #f195b2;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #d2567d;
 }
