@@ -41,6 +41,7 @@ body {
     margin: 0;
     font-family: 'Lora', serif;
     line-height: 1.5;
+    color: #242424;
 }
 
 main {
@@ -54,6 +55,7 @@ h2,
 h3 {
     font-family: 'Playfair Display', serif;
     line-height: 1.25;
+    color: #3e606b;
 }
 
 h1 {
