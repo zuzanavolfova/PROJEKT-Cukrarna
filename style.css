@@ -88,3 +88,14 @@ ul {
 li {
     list-style-type: none;
 }
+
+.footer {
+    padding: 30px;
+    text-align: center;
+    color: white;
+    background-color: #303339;
+}
+
+.footer p {
+    margin: 0;
+}
