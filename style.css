@@ -42,6 +42,12 @@ body {
     font-family: 'Lora', serif;
 }
 
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', serif;
+}
+
 .header {
     display: flex;
     position: relative;
