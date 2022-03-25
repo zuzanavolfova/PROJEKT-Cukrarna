@@ -1,4 +1,5 @@
-# Cukrárna
+# Cukrárnakontrola
+
 
 Dobrovolný kol pro kurz Staň se kóderkou od Czechitas. Když ho odevzdáš, koučové ti k němu napíšou zpětnou vazbu. Toto je standardní varianta úkolu, více se dozvíš v sekci Obtížnosti úkolu.
 
