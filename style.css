@@ -190,7 +190,7 @@
         border-radius: 5px;
         background-color: white;
         flex: 0 0 calc((100% - 90px)/4);
-row-gap: 30px;
+        row-gap: 30px;
         box-shadow: 1px 2px 4px#bbbbbb;
     }
     
@@ -214,9 +214,11 @@ row-gap: 30px;
     
     .articleText img {
         border-radius: 5px;
-        margin-right: 30px;
+        width: 100%;        
+    }
+
+    .articleText h2, .articleText p {
+        padding-left: 30px;
     }
     
-    .articleText {
-        align-items: center;
-    }
+    
